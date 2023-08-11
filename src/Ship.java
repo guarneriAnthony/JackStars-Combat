@@ -14,12 +14,14 @@ abstract public class Ship {
         this.shieldLife = shieldLife;
         this.shieldActived = shieldActived;
     }
-    void enableShield(){
-        System.out.println("Shield Activé du ship de type : " +type);
+
+    void enableShield() {
+        System.out.println("Shield Activé du ship de type : " + type);
         shieldActived = true;
     }
-    void disableShied(){
-        System.out.println("Shield Desactive du ship de type : " +type);
+
+    void disableShied() {
+        System.out.println("Shield Desactive du ship de type : " + type);
         shieldActived = false;
     }
 }
