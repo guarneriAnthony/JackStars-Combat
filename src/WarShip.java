@@ -1,9 +1,8 @@
 public class WarShip extends Ship {
 
     boolean weapon = false;
-
-    WarShip(String type, int nbrPassagers, int spaceForDock, int armor, float shieldLife, boolean shieldActived) {
-        super(type, nbrPassagers, spaceForDock, armor, shieldLife, shieldActived);
+    WarShip(TypeShip ship) {
+        super(ship);
     }
 
     void attack(Ship target, String weaponName, int duration) {

@@ -2,11 +2,9 @@ abstract class Planet {
     String name;
     static int nbrPlanetsFind = 0;
     static int totalVisiter = 0;
-    static int totalSpaceShip = 1;
-    static int usedSpaceShip = 0;
     long diametre;
     Atmosphere atmosphere;
-    Ship dockedShip;
+
 
     Planet(String name, long diametre, Atmosphere atmosphere) {
         this.name = name;
@@ -22,7 +20,6 @@ abstract class Planet {
     void rotation() {
         System.out.println("Je suis la planete " + this.name + " et je tourne sur moi-meme.");
     }
-
 
 }
 
