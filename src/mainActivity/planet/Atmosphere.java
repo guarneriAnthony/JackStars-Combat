@@ -1,3 +1,5 @@
+package mainActivity.planet;
+
 public class Atmosphere {
     float hydrogene;
     float methane;
@@ -6,7 +8,7 @@ public class Atmosphere {
     float argon;
     float sodium;
 
-    Atmosphere(float hydrogene, float methane, float azote, float helium, float argon, float sodium) {
+    public Atmosphere(float hydrogene, float methane, float azote, float helium, float argon, float sodium) {
         this.hydrogene = hydrogene;
         this.methane = methane;
         this.azote = azote;

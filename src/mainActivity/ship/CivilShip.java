@@ -1,5 +1,7 @@
+package mainActivity.ship;
+
 public class CivilShip extends Ship {
-    CivilShip(TypeShip ship) {
+    public CivilShip(TypeShip ship) {
         super(ship);
     }
 }

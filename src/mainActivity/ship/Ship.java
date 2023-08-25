@@ -1,9 +1,11 @@
+package mainActivity.ship;
+
 abstract public class Ship {
-    String type;
-    int nbrPassagers;
+    public String type;
+    public int nbrPassagers;
     int dockMax = 0;
     int dockActualy;
-    int spaceForDock;
+    public int spaceForDock;
     float armor;
     boolean shieldActived = false;
     float shieldLife;
@@ -50,7 +52,7 @@ abstract public class Ship {
         shieldActived = false;
     }
 
-    void load(int spaceLoad) {
+    public void load(int spaceLoad) {
           int spaceAvalidable = dockMax - dockActualy;
           if ( spaceLoad <= spaceAvalidable){
               dockActualy += spaceLoad;

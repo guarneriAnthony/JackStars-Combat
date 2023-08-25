@@ -1,7 +1,9 @@
+package mainActivity.ship;
+
 public class WarShip extends Ship {
 
     boolean weapon = false;
-    WarShip(TypeShip ship) {
+    public WarShip(TypeShip ship) {
         super(ship);
     }
 

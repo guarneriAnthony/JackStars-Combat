@@ -1,6 +1,8 @@
+package mainActivity.ship;
+
 public enum TypeShip {
     CHASSEUR("chasseur", 1, 1, 1, false, 1),
-    FREGATE("fregate", 1, 1, 1, false, 1),
+    FREGATE("fregate", 1, 1, 1, false, 3),
     CROISEUR("croiseur", 1, 1, 1, false, 1),
     CARGO("cargo", 1, 1, 1, false, 1),
     SHIPWORLD("shipWorld", 1, 1, 1, false, 2);
